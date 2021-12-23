@@ -33,7 +33,7 @@
 ?>
 <html>
   <head>
-    <title>PHP Test</title>
+    <title>シンプルな掲示板</title>
   </head>
   <body>
     <p><?=$msg?></p>
