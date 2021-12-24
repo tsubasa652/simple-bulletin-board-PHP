@@ -38,8 +38,8 @@
       <input type="submit" value="投稿　">
     </form>
     <? foreach($posts as $post): ?>
-    <p><?=$post["name"]?> <?=$post["time"]?></p>
-    <p><?=$post["body"]?></p>
+    <p><?=htmlspecialchars($post["name"], ENT_QUOTES)?> <?=$post["time"]?></p>
+    <p><?=htmlspecialchars($post["body"], ENT_QUOTES)?></p>
     <? endforeach; ?>
   </body>
 </html>
